@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gourmet Camp</title>
+        <link rel="stylesheet" href="gourmet_site.css">
+    </head>
+    <body>
+        <div class="body_content">
+        <header>
+            <img src="images/logo.png" alt="Gourmet Camp ロゴ">
+            <nav aria-label="マインナビゲーション" class="navigation">
+                <ul class="navigation_items">
+                    <li><a href="#">あなたにおすすめ</a></li>
+                    <li><a href="#">ジャンルで選ぶ</a></li>
+                    <li><a href="#">雰囲気で選ぶ</a></li>
+                    <li><a href="#">マイページ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero">
+            <img src="images/top.jpg" alt="トップページのヒーロー画像">
+        </div>
+        <div class="main_container">
+            <main>
+                <section class="food_categories">
+                    <h2>今人気のジャンルをチェック！</h2>
+                    <div class="categories_container">
+                        <a href="#"><div class="category_box"><img src="images/genre_chinese.jpg" alt="中華料理ジャンル"><p>中 華</p></div></a>
+                        <a href="#"><div class="category_box"><img src="images/genre_japanese.jpg" alt="和食ジャンル"><p>和 食</p></div></a>
+                        <a href="#"><div class="category_box"><img src="images/genre_french.jpg" alt="フレンチ料理ジャンル"><p>フレンチ</p></div></a>
+                        <a href="#"><div class="category_box"><img src="images/genre_italian.jpg" alt="イタリアン料理ジャンル"><p>イタリアン</p></div></a>
+                        <a href="#"><div class="category_box"><img src="images/genre_sweets.jpg" alt="スイーツジャンル"><p>スイーツ</p></div></a>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2>ユーザーレビュー</h2>
+                    <div class="review_container">
+                    <div class="review_content">
+                        <div class="reviewer flex">
+                            <div>
+                                <img src="images/icon_man.png" alt="ユーザーアイコン">
+                            </div>
+                          <div class="reviewer_description">
+                            <div class="reviewer_name">モーニングを愛する人</div>
+                            <div class="reviewer_detail">千葉県</div>
+                          </div>
+                        </div>
+                        <h3>また行きます - ほげほげダイニング品川</h3>
+                        <p>レビューの評価はいまいちですが、やっぱり自分で行って確かめるべき！店長と少しおしゃべりしました。コーヒーは店長自身が仕入れに海外まで行っているようです。そういうこだわり、好きです。</p>
+                    </div>
+                    
+                    <div class="review_content">
+                        <div class="reviewer flex">
+                            <div>
+                                <img src="images/icon_woman.png"　alt="ユーザーアイコン">
+                            </div>
+                          <div class="reviewer_description">
+                            <div class="reviewer_name">スイーツ大好き</div>
+                            <div class="reviewer_detail">兵庫県</div>
+                          </div>
+                        </div>
+                        <h3>内装の美しさに感動！- モダンキッチン大崎ふがふが</h3>
+                        <p>以前から友人と話題に上がっていたお店だったので楽しみにしていました。落ち着きのあるモダンな内装。オーダー前にすでに満足！</p>
+                    </div>
+                    </div>
+                </section>
+            </main>
+            <aside class="sidebar">
+              <form action="#">
+                <label for="keyword_search" class="search_label">検索</label>
+                <input type="search" id="keyword_search" name="q" placeholder="キーワード(例: 品川、ワイン)">
+                <button type="submit" class="submit_button">
+                  <img src="images/icon_search.png" alt="検索アイコン"> 検索
+                </button>
+              </form>
+            </aside>
+        </div>
+        </div>
+        <footer>
+            <p>GourmetCamp&copy; All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
